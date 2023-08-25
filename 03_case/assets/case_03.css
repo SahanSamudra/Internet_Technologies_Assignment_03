@@ -1,0 +1,80 @@
+.gray-circle {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 8px solid dimgray;
+    box-sizing: border-box;
+    z-index: 10000;
+}
+
+.red-circle {
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 8px solid red;
+    z-index: 9000;
+}
+
+section {
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.hello-div {
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    background-color: purple;
+    margin-top: calc(50vh - 60px);
+    margin-bottom: calc(50vh - 60px);
+}
+
+.welcome-div {
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    background-color: dodgerblue;
+    margin-bottom:  calc(50vh - 60px);
+}
+
+.ijse-div {
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    background-color: coral;
+    margin-bottom:  calc(50vh - 60px);
+}
+
+h4 {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
